@@ -1,0 +1,488 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <!-- Definitions for Gradients, Shadows, and Filters -->
+  <defs>
+    <linearGradient id="bg-grad-b6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02120f" />
+      <stop offset="50%" stop-color="#04261f" />
+      <stop offset="100%" stop-color="#010d0a" />
+    </linearGradient>
+    <linearGradient id="card-grad-b6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#052820" />
+      <stop offset="100%" stop-color="#021410" />
+    </linearGradient>
+    <linearGradient id="step-grad-b6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#073b2e" />
+      <stop offset="100%" stop-color="#031c16" />
+    </linearGradient>
+    <linearGradient id="emerald-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="glow-grad-b6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0" />
+    </linearGradient>
+    <filter id="shadow-b6" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="glow-emerald-b6" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-soft-b6" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg-grad-b6)" />
+  
+  <!-- Grid Pattern for Tech/LMS Aesthetic -->
+  <g opacity="0.02" stroke="#10b981" stroke-width="1">
+    <path d="M 0,50 L 1920,50 M 0,100 L 1920,100 M 0,150 L 1920,150 M 0,200 L 1920,200 M 0,250 L 1920,250 M 0,300 L 1920,300 M 0,350 L 1920,350 M 0,400 L 1920,400 M 0,450 L 1920,450 M 0,500 L 1920,500 M 0,550 L 1920,550 M 0,600 L 1920,600 M 0,650 L 1920,650 M 0,700 L 1920,700 M 0,750 L 1920,750 M 0,800 L 1920,800 M 0,850 L 1920,850 M 0,900 L 1920,900 M 0,950 L 1920,950 M 0,1000 L 1920,1000 M 0,1050 L 1920,1050" />
+    <path d="M 50,0 L 50,1080 M 100,0 L 100,1080 M 150,0 L 150,1080 M 200,0 L 200,1080 M 250,0 L 250,1080 M 300,0 L 300,1080 M 350,0 L 350,1080 M 400,0 L 400,1080 M 450,0 L 450,1080 M 500,0 L 500,1080 M 550,0 L 550,1080 M 600,0 L 600,1080 M 650,0 L 650,1080 M 700,0 L 700,1080 M 750,0 L 750,1080 M 800,0 L 800,1080 M 850,0 L 850,1080 M 900,0 L 900,1080 M 950,0 L 950,1080 M 1000,0 L 1000,1080 M 1050,0 L 1050,1080 M 1100,0 L 1100,1080 M 1150,0 L 1150,1080 M 1200,0 L 1200,1080 M 1250,0 L 1250,1080 M 1300,0 L 1300,1080 M 1350,0 L 1350,1080 M 1400,0 L 1400,1080 M 1450,0 L 1450,1080 M 1500,0 L 1500,1080 M 1550,0 L 1550,1080 M 1600,0 L 1600,1080 M 1650,0 L 1650,1080 M 1700,0 L 1700,1080 M 1750,0 L 1750,1080 M 1800,0 L 1800,1080 M 1850,0 L 1850,1080 M 1900,0 L 1900,1080" />
+  </g>
+
+  <!-- Glowing background blobs -->
+  <circle cx="350" cy="300" r="200" fill="url(#glow-grad-b6)" filter="url(#glow-emerald-b6)" opacity="0.15" />
+  <circle cx="1550" cy="750" r="250" fill="url(#glow-grad-b6)" filter="url(#glow-emerald-b6)" opacity="0.12" />
+
+  <!-- MAIN TITLE HEADER WITH UEB BRANDING -->
+  <g filter="url(#shadow-b6)" transform="translate(0, 0)">
+    <rect x="0" y="0" width="1920" height="120" fill="#010a08" fill-opacity="0.9" />
+    <line x1="0" y1="120" x2="1920" y2="120" stroke="#10b981" stroke-width="2.5" opacity="0.8" filter="url(#glow-soft-b6)" />
+    
+    <!-- UEB Shield Logo Graphic -->
+    <g transform="translate(45, 20)">
+      <path d="M 0,0 L 60,0 C 60,0 60,45 30,65 C 0,45 0,0 0,0 Z" fill="#ffffff" stroke="#10b981" stroke-width="2.5" />
+      <path d="M 5,5 L 55,5 C 55,5 55,42 30,59 C 5,42 5,5 5,5 Z" fill="#01402e" />
+      <text x="30" y="32" text-anchor="middle" fill="#ffffff" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="16" letter-spacing="1">UEB</text>
+      <text x="30" y="46" text-anchor="middle" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="9" letter-spacing="1">VNU</text>
+    </g>
+
+    <text x="980" y="62" text-anchor="middle" fill="#ffffff" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="33" letter-spacing="1.5">SỬ DỤNG AI CÓ TRÁCH NHIỆM TRONG HỌC TẬP VÀ NGHIÊN CỨU KHOA HỌC</text>
+    <text x="980" y="98" text-anchor="middle" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="16" letter-spacing="4.5">BÁO CÁO BÀI TẬP: ĐOÀN NGỌC LINH - MSV: 25051227</text>
+  </g>
+
+  <!-- COLUMN I (LEFT) - SECTION I & II -->
+  
+  <!-- SECTION I: PHÂN TÍCH CHÍNH SÁCH AI UEB -->
+  <g transform="translate(40, 160)" filter="url(#shadow-b6)">
+    <!-- Main Outer Box -->
+    <rect width="900" height="340" rx="16" fill="url(#card-grad-b6)" stroke="#10b981" stroke-width="1.5" />
+    <rect width="900" height="340" rx="16" fill="none" stroke="#10b981" stroke-width="2.5" opacity="0.25" filter="url(#glow-soft-b6)" />
+    
+    <!-- Tab Header Banner -->
+    <path d="M 0,16 A 16,16 0 0 1 16,0 L 380,0 A 10,10 0 0 1 390,10 L 400,40 A 16,16 0 0 1 384,56 L 0,56 Z" fill="#053026" />
+    <text x="30" y="36" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="18" letter-spacing="1">1. PHÂN TÍCH CHÍNH SÁCH AI UEB</text>
+    
+    <!-- RANH GIỚI HÀNH VI header inside Box I -->
+    <text x="315" y="95" text-anchor="middle" fill="#94a3b8" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="14" letter-spacing="3">RANH GIỚI HÀNH VI</text>
+    <line x1="165" y1="105" x2="465" y2="105" stroke="#1e293b" stroke-width="1.5" />
+
+    <!-- Left Sub-column: NGHIÊM CẤM -->
+    <g transform="translate(30, 120)">
+      <rect width="270" height="190" rx="12" fill="#180a0a" stroke="#ef4444" stroke-width="1" opacity="0.8" />
+      
+      <!-- Section Tag Header -->
+      <g transform="translate(15, 15)">
+        <path d="M 10,0 L 2,16 L 18,16 Z" fill="none" stroke="#ef4444" stroke-width="2" stroke-linejoin="round" />
+        <line x1="10" y1="5" x2="10" y2="11" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx="10" cy="14" r="1.2" fill="#ef4444" />
+        <text x="28" y="14" fill="#ef4444" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="0.5">NGHIÊM CẤM</text>
+      </g>
+
+      <!-- Icons of violation -->
+      <g transform="translate(200, 15)" opacity="0.85">
+        <circle cx="15" cy="15" r="12" fill="#ef4444" opacity="0.15" />
+        <!-- Exclamation circle -->
+        <circle cx="15" cy="15" r="10" fill="none" stroke="#ef4444" stroke-width="1.5" />
+        <line x1="15" y1="10" x2="15" y2="16" stroke="#ef4444" stroke-width="2" />
+        <circle cx="15" cy="20" r="1" fill="#ef4444" />
+
+        <g transform="translate(25, 0)">
+          <circle cx="15" cy="15" r="12" fill="#ef4444" opacity="0.15" />
+          <!-- Forbidden copy doc -->
+          <rect x="9" y="8" width="12" height="14" rx="2" fill="none" stroke="#ef4444" stroke-width="1.5" />
+          <line x1="12" y1="12" x2="18" y2="12" stroke="#ef4444" stroke-width="1" />
+          <line x1="12" y1="15" x2="18" y2="15" stroke="#ef4444" stroke-width="1" />
+        </g>
+      </g>
+      
+      <!-- Bullet list -->
+      <g transform="translate(15, 65)">
+        <g transform="translate(0, 10)">
+          <circle cx="6" cy="6" r="3" fill="#ef4444" />
+          <text x="20" y="10" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">Sao chép nguyên văn</text>
+        </g>
+        <g transform="translate(0, 45)">
+          <circle cx="6" cy="6" r="3" fill="#ef4444" />
+          <text x="20" y="10" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">Ngụy tạo số liệu</text>
+        </g>
+        <g transform="translate(0, 80)">
+          <circle cx="6" cy="6" r="3" fill="#ef4444" />
+          <text x="20" y="10" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">Lách đạo văn</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right Sub-column: HỢP LỆ -->
+    <g transform="translate(320, 120)">
+      <rect width="270" height="190" rx="12" fill="#081812" stroke="#10b981" stroke-width="1" opacity="0.8" />
+      
+      <!-- Section Tag Header -->
+      <g transform="translate(15, 15)">
+        <circle cx="10" cy="10" r="9" fill="none" stroke="#10b981" stroke-width="2" />
+        <polyline points="7,10 9,12 13,8" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <text x="28" y="14" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="0.5">HỢP LỆ</text>
+      </g>
+
+      <!-- Icons of compliance -->
+      <g transform="translate(200, 15)" opacity="0.85">
+        <circle cx="15" cy="15" r="12" fill="#10b981" opacity="0.15" />
+        <!-- Lightbulb -->
+        <path d="M11,17 Q11,13 13,11 A3.5,3.5 0 1 1 17,11 Q19,13 19,17 Z" fill="none" stroke="#10b981" stroke-width="1.5" />
+        <line x1="13" y1="20" x2="17" y2="20" stroke="#10b981" stroke-width="1.5" />
+
+        <g transform="translate(25, 0)">
+          <circle cx="15" cy="15" r="12" fill="#10b981" opacity="0.15" />
+          <!-- Document Check -->
+          <rect x="9" y="8" width="12" height="14" rx="2" fill="none" stroke="#10b981" stroke-width="1.5" />
+          <polyline points="12,15 14,17 18,13" fill="none" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+      </g>
+      
+      <!-- Bullet list -->
+      <g transform="translate(15, 65)">
+        <g transform="translate(0, 10)">
+          <circle cx="6" cy="6" r="3" fill="#10b981" />
+          <text x="20" y="10" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">Trợ lý ý tưởng</text>
+        </g>
+        <g transform="translate(0, 45)">
+          <circle cx="6" cy="6" r="3" fill="#10b981" />
+          <text x="20" y="10" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">Sửa lỗi</text>
+        </g>
+        <g transform="translate(0, 80)">
+          <circle cx="6" cy="6" r="3" fill="#10b981" />
+          <text x="20" y="10" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">Khung bài nghiên cứu</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right-most sub-card: ĐẶC THÙ NGÀNH KINH TẾ -->
+    <g transform="translate(610, 30)">
+      <rect width="260" height="280" rx="12" fill="#042018" stroke="#059669" stroke-width="1" />
+      <rect width="260" height="40" rx="10" fill="#054030" opacity="0.9" />
+      
+      <text x="130" y="25" text-anchor="middle" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13.5" letter-spacing="1">ĐẶC THÙ NGÀNH KINH TẾ</text>
+      
+      <!-- Scales Icon representation in Economic box -->
+      <g transform="translate(110, 55)" opacity="0.6">
+        <line x1="10" y1="35" x2="30" y2="35" stroke="#10b981" stroke-width="2" />
+        <line x1="20" y1="10" x2="20" y2="35" stroke="#10b981" stroke-width="2" />
+        <line x1="5" y1="10" x2="35" y2="10" stroke="#10b981" stroke-width="2" />
+        <path d="M 5,10 L 0,25 Q 20,30 40,25 Z" fill="none" stroke="#10b981" stroke-width="1.5" />
+      </g>
+
+      <!-- Paragraph Content -->
+      <g transform="translate(20, 110)">
+        <text x="0" y="15" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">Bảo vệ phản biện</text>
+        <text x="0" y="45" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">dựa trên lý luận và</text>
+        <text x="0" y="75" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">kinh nghiệm thực tế</text>
+        <text x="0" y="105" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">của người nghiên cứu</text>
+        <text x="0" y="135" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="14.5">ngành kinh tế &amp; tài chính</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION II: NHẬT KÝ THỰC HÀNH TƯƠNG TÁC AI (Lower Left) -->
+  <g transform="translate(40, 520)" filter="url(#shadow-b6)">
+    <!-- Main Outer Box -->
+    <rect width="900" height="340" rx="16" fill="url(#card-grad-b6)" stroke="#10b981" stroke-width="1.5" />
+    <rect width="900" height="340" rx="16" fill="none" stroke="#10b981" stroke-width="2.5" opacity="0.25" filter="url(#glow-soft-b6)" />
+    
+    <!-- Tab Header Banner -->
+    <path d="M 0,16 A 16,16 0 0 1 16,0 L 410,0 A 10,10 0 0 1 420,10 L 430,40 A 16,16 0 0 1 414,56 L 0,56 Z" fill="#053026" />
+    <text x="30" y="36" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="18" letter-spacing="1">2. NHẬT KÝ THỰC HÀNH TƯƠNG TÁC AI</text>
+
+    <!-- Connected Arrow in middle -->
+    <g stroke="#10b981" stroke-width="3" fill="none" opacity="0.6" filter="url(#glow-soft-b6)">
+      <!-- Line from box 1 to box 2 -->
+      <path d="M 410,200 L 480,200" />
+      <polygon points="480,195 492,200 480,205" fill="#10b981" />
+    </g>
+
+    <!-- Left Sub-Box: QUÁ TRÌNH -->
+    <g transform="translate(30, 80)">
+      <rect width="360" height="230" rx="12" fill="url(#step-grad-b6)" stroke="#1e293b" stroke-width="1.5" />
+      
+      <!-- Header Badge -->
+      <rect x="0" y="0" width="360" height="45" rx="10" fill="#064e3b" />
+      <text x="180" y="28" text-anchor="middle" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="15" letter-spacing="2">QUÁ TRÌNH</text>
+
+      <!-- Content -->
+      <g transform="translate(25, 75)">
+        <text x="155" y="20" text-anchor="middle" fill="#38bdf8" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="15" letter-spacing="0.5">Prompt chuyên gia</text>
+        <text x="155" y="50" text-anchor="middle" fill="#38bdf8" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="15" letter-spacing="0.5">market research</text>
+        
+        <line x1="30" y1="80" x2="280" y2="80" stroke="#1e293b" stroke-width="1" />
+        
+        <text x="155" y="115" text-anchor="middle" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="600" font-size="15">Mô hình ngôn ngữ Gemini</text>
+        <text x="155" y="145" text-anchor="middle" fill="#a7f3d0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">Lý thuyết nghiên cứu: TRA, TPB</text>
+      </g>
+    </g>
+
+    <!-- Right Sub-Box: ĐÁNH GIÁ & TÍCH HỢP -->
+    <g transform="translate(510, 80)">
+      <rect width="360" height="230" rx="12" fill="url(#step-grad-b6)" stroke="#1e293b" stroke-width="1.5" />
+      
+      <!-- Header Badge -->
+      <rect x="0" y="0" width="360" height="45" rx="10" fill="#064e3b" />
+      <text x="180" y="28" text-anchor="middle" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="15" letter-spacing="2">ĐÁNH GIÁ &amp; TÍCH HỢP</text>
+
+      <!-- Content -->
+      <g transform="translate(25, 75)">
+        <text x="155" y="20" text-anchor="middle" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="15" letter-spacing="0.5">Khung lý thuyết AI chính xác</text>
+        
+        <line x1="30" y1="55" x2="280" y2="55" stroke="#1e293b" stroke-width="1" />
+        
+        <text x="155" y="90" text-anchor="middle" fill="#f43f5e" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">Hạn chế: Số liệu mơ hồ</text>
+        <text x="155" y="125" text-anchor="middle" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="600" font-size="14.5">Giải pháp: Tự kiểm chứng độc lập</text>
+        <text x="155" y="150" text-anchor="middle" fill="#38bdf8" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="13.5">(Nguồn uy tín: Kantar / Nielsen)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- COLUMN II (RIGHT) - SECTION III & V -->
+
+  <!-- SECTION III: VẤN ĐỀ ĐẠO ĐỨC HỌC THUẬT -->
+  <g transform="translate(980, 160)" filter="url(#shadow-b6)">
+    <!-- Main Outer Box -->
+    <rect width="900" height="340" rx="16" fill="url(#card-grad-b6)" stroke="#10b981" stroke-width="1.5" />
+    <rect width="900" height="340" rx="16" fill="none" stroke="#10b981" stroke-width="2.5" opacity="0.25" filter="url(#glow-soft-b6)" />
+    
+    <!-- Tab Header Banner -->
+    <path d="M 0,16 A 16,16 0 0 1 16,0 L 410,0 A 10,10 0 0 1 420,10 L 430,40 A 16,16 0 0 1 414,56 L 0,56 Z" fill="#053026" />
+    <text x="30" y="36" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="18" letter-spacing="1">3. VẤN ĐỀ ĐẠO ĐỨC HỌC THUẬT</text>
+
+    <!-- Column 1: RANH GIỚI MONG MANH -->
+    <g transform="translate(30, 80)">
+      <rect width="260" height="230" rx="12" fill="#041a15" stroke="#10b981" stroke-width="1" stroke-opacity="0.6" />
+      
+      <!-- Custom ribbon top -->
+      <path d="M 0,8 A 8,8 0 0 1 8,0 L 252,0 A 8,8 0 0 1 260,8 L 260,40 L 0,40 Z" fill="#064e3b" />
+      <text x="130" y="25" text-anchor="middle" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="1">RANH GIỚI MONG MANH</text>
+
+      <g transform="translate(15, 65)">
+        <text x="115" y="30" text-anchor="middle" fill="#fb7185" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="16">Hỗ trợ &lt;—&gt; Gian lận</text>
+        <line x1="20" y1="55" x2="210" y2="55" stroke="#1e293b" stroke-width="1" />
+        <text x="115" y="90" text-anchor="middle" fill="#94a3b8" font-family="'Inter', system-ui, sans-serif" font-size="13.5" font-style="italic">Lấy AI làm gợi ý phản biện</text>
+        <text x="115" y="115" text-anchor="middle" fill="#94a3b8" font-family="'Inter', system-ui, sans-serif" font-size="13.5" font-style="italic">chứ không giao phó hoàn toàn</text>
+        <text x="115" y="140" text-anchor="middle" fill="#94a3b8" font-family="'Inter', system-ui, sans-serif" font-size="13.5" font-style="italic">năng lực viết bài cho máy.</text>
+      </g>
+    </g>
+
+    <!-- Column 2: BẢN QUYỀN & TRÍCH DẪN -->
+    <g transform="translate(320, 80)">
+      <rect width="260" height="230" rx="12" fill="#041a15" stroke="#10b981" stroke-width="1" stroke-opacity="0.6" />
+      
+      <!-- Custom ribbon top -->
+      <path d="M 0,8 A 8,8 0 0 1 8,0 L 252,0 A 8,8 0 0 1 260,8 L 260,40 L 0,40 Z" fill="#064e3b" />
+      <text x="130" y="25" text-anchor="middle" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="1">BẢN QUYỀN &amp; TRÍCH DẪN</text>
+
+      <g transform="translate(15, 65)">
+        <text x="115" y="25" text-anchor="middle" fill="#ef4444" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="15">Không ghi "Theo AI"</text>
+        <line x1="20" y1="45" x2="210" y2="45" stroke="#1e293b" stroke-width="1" />
+        <text x="115" y="75" text-anchor="middle" fill="#a7f3d0" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="14.5">Truy vết nguồn gốc gốc</text>
+        <text x="115" y="105" text-anchor="middle" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14">Trích dẫn khoa học chuẩn</text>
+        <text x="115" y="130" text-anchor="middle" fill="#38bdf8" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="14">APA hoặc Harvard</text>
+      </g>
+    </g>
+
+    <!-- Column 3: HỆ LỤY DÀI HẠN -->
+    <g transform="translate(610, 80)">
+      <rect width="260" height="230" rx="12" fill="#041a15" stroke="#10b981" stroke-width="1" stroke-opacity="0.6" />
+      
+      <!-- Custom ribbon top -->
+      <path d="M 0,8 A 8,8 0 0 1 8,0 L 252,0 A 8,8 0 0 1 260,8 L 260,40 L 0,40 Z" fill="#064e3b" />
+      <text x="130" y="25" text-anchor="middle" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="1">HỆ LỤY DÀI HẠN</text>
+
+      <g transform="translate(15, 65)">
+        <text x="115" y="25" text-anchor="middle" fill="#38bdf8" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="15">Làm chủ tư duy phản biện</text>
+        <line x1="20" y1="45" x2="210" y2="45" stroke="#1e293b" stroke-width="1" />
+        <text x="115" y="75" text-anchor="middle" fill="#f43f5e" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14">Tránh ỷ lại hoàn toàn</text>
+        <text x="115" y="105" text-anchor="middle" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="600" font-size="14">Bảo vệ tính bền vững và</text>
+        <text x="115" y="130" text-anchor="middle" fill="#cbd5e1" font-family="'Inter', system-ui, sans-serif" font-size="13.5" font-style="italic">suy giảm lập luận học thuật.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION V: Ý TƯỞNG THIẾT KẾ INFOGRAPHIC TRUYỀN THÔNG (Lower Right) -->
+  <g transform="translate(980, 520)" filter="url(#shadow-b6)">
+    <!-- Main Outer Box -->
+    <rect width="900" height="460" rx="16" fill="url(#card-grad-b6)" stroke="#10b981" stroke-width="1.5" />
+    <rect width="900" height="460" rx="16" fill="none" stroke="#10b981" stroke-width="2.5" opacity="0.25" filter="url(#glow-soft-b6)" />
+    
+    <!-- Tab Header Banner -->
+    <path d="M 0,16 A 16,16 0 0 1 16,0 L 490,0 A 10,10 0 0 1 500,10 L 510,40 A 16,16 0 0 1 494,56 L 0,56 Z" fill="#053026" />
+    <text x="30" y="36" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="18" letter-spacing="1">5. Ý TƯỞNG THIẾT KẾ INFOGRAPHIC TRUYỀN THÔNG</text>
+
+    <!-- Two columns of guidelines inside Section 5 -->
+    <!-- Column Red: CẢNH BÁO -->
+    <g transform="translate(30, 80)">
+      <rect width="400" height="260" rx="12" fill="#180a0a" stroke="#ef4444" stroke-width="1" />
+      <rect x="0" y="0" width="400" height="45" rx="10" fill="#7f1d1d" />
+      <text x="200" y="28" text-anchor="middle" fill="#ffffff" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="14" letter-spacing="2">CẢNH BÁO (Hành vi cần tránh)</text>
+
+      <!-- Checklist items -->
+      <g transform="translate(25, 65)" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">
+        <g transform="translate(0, 15)">
+          <path d="M 0,0 L 10,10 M 10,0 L 0,10" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+          <text x="25" y="10">Sao chép nguyên văn từ AI</text>
+        </g>
+        <g transform="translate(0, 55)">
+          <path d="M 0,0 L 10,10 M 10,0 L 0,10" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+          <text x="25" y="10">Ngụy tạo thông tin, số liệu giả</text>
+        </g>
+        <g transform="translate(0, 95)">
+          <path d="M 0,0 L 10,10 M 10,0 L 0,10" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+          <text x="25" y="10">Lách luật kiểm định đạo văn</text>
+        </g>
+        <g transform="translate(0, 135)">
+          <path d="M 0,0 L 10,10 M 10,0 L 0,10" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+          <text x="25" y="10">Sử dụng AI lười suy nghĩ thụ động</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Column Green: TÍCH CỰC -->
+    <g transform="translate(470, 80)">
+      <rect width="400" height="260" rx="12" fill="#081c15" stroke="#10b981" stroke-width="1" />
+      <rect x="0" y="0" width="400" height="45" rx="10" fill="#065f46" />
+      <text x="200" y="28" text-anchor="middle" fill="#ffffff" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="14" letter-spacing="2">TÍCH CỰC (Hành vi khuyến khích)</text>
+
+      <!-- Checklist items -->
+      <g transform="translate(25, 65)" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="14.5">
+        <g transform="translate(0, 15)">
+          <polyline points="0,6 4,10 10,2" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          <text x="25" y="10">Trợ lý brainstorm ý tưởng ban đầu</text>
+        </g>
+        <g transform="translate(0, 55)">
+          <polyline points="0,6 4,10 10,2" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          <text x="25" y="10">Sử dụng học tập và nghiên cứu AI</text>
+        </g>
+        <g transform="translate(0, 95)">
+          <polyline points="0,6 4,10 10,2" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          <text x="25" y="10">Kiểm sửa lỗi chính tả, tối ưu văn phong</text>
+        </g>
+        <g transform="translate(0, 135)">
+          <polyline points="0,6 4,10 10,2" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          <text x="25" y="10">Cơ sở định hình dàn ý nghiên cứu</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Bottom Action Ribbon: 6 NGUYÊN TẮC CỐT LÕI -->
+    <g transform="translate(30, 365)" filter="url(#shadow-b6)">
+      <rect width="840" height="65" rx="10" fill="#022c22" stroke="#10b981" stroke-width="1.5" />
+      
+      <!-- Shield vector icon -->
+      <g transform="translate(40, 17)">
+        <path d="M 0,0 L 18,0 C 18,0 18,15 9,22 C 0,15 0,0 0,0 Z" fill="none" stroke="#10b981" stroke-width="2" />
+        <polyline points="5,10 8,13 13,8" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+
+      <text x="80" y="38" fill="#a7f3d0" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="16" letter-spacing="3">6 NGUYÊN TẮC CỐT LÕI CỦA CHIẾC KHIÊN LIÊM CHÍNH SỐ</text>
+      
+      <!-- Glowing green dots representing the circles -->
+      <g transform="translate(720, 22)">
+        <circle cx="10" cy="10" r="6" fill="#10b981" filter="url(#glow-soft-b6)" />
+        <circle cx="30" cy="10" r="6" fill="#10b981" filter="url(#glow-soft-b6)" />
+        <circle cx="50" cy="10" r="6" fill="#10b981" filter="url(#glow-soft-b6)" />
+        <circle cx="70" cy="10" r="6" fill="#10b981" filter="url(#glow-soft-b6)" />
+        <circle cx="90" cy="10" r="6" fill="#10b981" filter="url(#glow-soft-b6)" />
+        <circle cx="110" cy="10" r="6" fill="#10b981" filter="url(#glow-soft-b6)" />
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 4: BỘ SÁU NGUYÊN TẮC CÁ CÁ NHÂN (Bottom Center-Left) -->
+  <g transform="translate(40, 880)" filter="url(#shadow-b6)">
+    <!-- Outer backdrop rounded box -->
+    <rect width="900" height="100" rx="16" fill="url(#card-grad-b6)" stroke="#10b981" stroke-width="1.5" />
+    <rect width="900" height="100" rx="16" fill="none" stroke="#10b981" stroke-width="2" opacity="0.2" filter="url(#glow-soft-b6)" />
+    
+    <!-- Header of Section 4 -->
+    <text x="35" y="32" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="14.5" letter-spacing="1">4. BỘ SÁU NGUYÊN TẮC CÁ NHÂN</text>
+    <line x1="35" y1="42" x2="285" y2="42" stroke="#064e3b" stroke-width="1.5" />
+
+    <!-- 6 badges side-by-side -->
+    <g transform="translate(35, 55)">
+      <!-- 1. NGUYÊN BẢN -->
+      <g transform="translate(0, 0)">
+        <circle cx="15" cy="15" r="14" fill="#042018" stroke="#10b981" stroke-width="1.5" filter="url(#glow-soft-b6)" />
+        <!-- Leaf outline -->
+        <path d="M11,18 C11,13 15,11 19,11 C19,16 15,19 11,19 Z" fill="none" stroke="#10b981" stroke-width="1.5" />
+        <text x="38" y="20" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="0.5">NGUYÊN BẢN</text>
+      </g>
+
+      <!-- 2. XÁC MINH -->
+      <g transform="translate(145, 0)">
+        <circle cx="15" cy="15" r="14" fill="#042018" stroke="#10b981" stroke-width="1.5" filter="url(#glow-soft-b6)" />
+        <!-- Search check -->
+        <circle cx="13" cy="13" r="4" fill="none" stroke="#10b981" stroke-width="1.5" />
+        <line x1="16" y1="16" x2="20" y2="20" stroke="#10b981" stroke-width="1.5" />
+        <text x="38" y="20" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="0.5">XÁC MINH</text>
+      </g>
+
+      <!-- 3. MINH BẠCH -->
+      <g transform="translate(285, 0)">
+        <circle cx="15" cy="15" r="14" fill="#042018" stroke="#10b981" stroke-width="1.5" filter="url(#glow-soft-b6)" />
+        <!-- Doc icon -->
+        <rect x="10" y="8" width="10" height="14" rx="1.5" fill="none" stroke="#10b981" stroke-width="1.5" />
+        <text x="38" y="20" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="0.5">MINH BẠCH</text>
+      </g>
+
+      <!-- 4. LÀM CHỦ -->
+      <g transform="translate(425, 0)">
+        <circle cx="15" cy="15" r="14" fill="#042018" stroke="#10b981" stroke-width="1.5" filter="url(#glow-soft-b6)" />
+        <!-- Profile outline with check -->
+        <circle cx="15" cy="11" r="3.5" fill="none" stroke="#10b981" stroke-width="1.5" />
+        <path d="M9,20 C9,17 12,16 15,16" fill="none" stroke="#10b981" stroke-width="1.5" />
+        <text x="38" y="20" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="0.5">LÀM CHỦ</text>
+      </g>
+
+      <!-- 5. ĐẠO ĐỨC -->
+      <g transform="translate(565, 0)">
+        <circle cx="15" cy="15" r="14" fill="#042018" stroke="#10b981" stroke-width="1.5" filter="url(#glow-soft-b6)" />
+        <!-- Heart shape -->
+        <path d="M15,19 C15,19 10,15 10,12.5 C10,11 11,10 12.5,10 C13.5,10 14.5,11 15,12 C15.5,11 16.5,10 17.5,10 C19,10 20,11 20,12.5 C20,15 15,19 15,19 Z" fill="none" stroke="#10b981" stroke-width="1.5" />
+        <text x="38" y="20" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="0.5">ĐẠO ĐỨC</text>
+      </g>
+
+      <!-- 6. HỌC SÂU -->
+      <g transform="translate(705, 0)">
+        <circle cx="15" cy="15" r="14" fill="#042018" stroke="#10b981" stroke-width="1.5" filter="url(#glow-soft-b6)" />
+        <!-- Brain logic curves -->
+        <path d="M12,12 Q10,15 13,18 Q16,15 15,12 Z" fill="none" stroke="#10b981" stroke-width="1.5" />
+        <path d="M18,12 Q20,15 17,18 Q14,15 15,12 Z" fill="none" stroke="#10b981" stroke-width="1.5" />
+        <text x="38" y="20" fill="#e2e8f0" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="13" letter-spacing="0.5">HỌC SÂU</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- FOOTER PANEL -->
+  <g transform="translate(40, 1010)">
+    <rect width="1840" height="45" rx="8" fill="#010a08" fill-opacity="0.9" stroke="#064e3b" stroke-width="1.5" />
+    <text x="25" y="27" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">Nguồn: Báo cáo thực hành liêm chính khoa học tmpvqzhz9_bt4_doanngoclinh25051227.docx</text>
+    
+    <!-- Centered check tag -->
+    <g transform="translate(850, 15)">
+      <path d="M 0,0 L 15,0 L 12,15 L -3,15 Z" fill="#10b981" opacity="0.3" />
+      <text x="25" y="12" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="900" font-size="11" letter-spacing="1">UEB LMS COMPLIANT PORTFOLIO</text>
+    </g>
+
+    <text x="1815" y="27" text-anchor="end" fill="#10b981" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="12.5">SINH VIÊN THỰC HIỆN: ĐOÀN NGỌC LINH • MSV: 25051227 • LỚP: QH 2025E KTQT 10</text>
+  </g>
+</svg>

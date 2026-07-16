@@ -1,0 +1,6 @@
+{
+  "name": "Digital Portfolio VNU-UEB",
+  "description": "Hồ sơ năng lực số học thuật dành cho sinh viên môn Công nghệ số tại Trường Đại học Kinh tế - ĐHQGHN (VNU-UEB)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
