@@ -60,7 +60,7 @@ export default function Hero() {
         {/* Course Header Tagline */}
         <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-navy-900 border border-navy-800 text-xs font-semibold rounded-full text-navy-200 font-display">
           <Terminal size={12} className="text-teal-400" />
-          <span>HỌC PHẦN: CÔNG NGHỆ SỐ TRONG KINH DOANH</span>
+          <span>HỌC PHẦN: NHẬP MÔN CÔNG NGHỆ SỐ VÀ ỨNG DỤNG TRÍ TUỆ NHÂN TẠO</span>
         </div>
 
         {/* Dynamic Catchy Title */}
